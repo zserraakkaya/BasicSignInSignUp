@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+nav {
+  margin: 20px auto;
+}
+a {
+  text-decoration: underline;
+  color: black;
+  font-size: 1.2rem;
+}
+h1 {
+  font-weight: normal;
+  font-size: 2rem;
+}
+input {
+  width: 15%;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  height: 25px;
+  border-radius: 5px;
+}
+button {
+  width: fit-content;
+  height: 25px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid black;
+}
+#message {
+  width: fit-content;
+  margin: 5px auto;
+  border: 2px solid blue;
+  padding: 20px;
+  background-color: rgba(0, 0, 255, 0.1);
+}
+#signout {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 5px;
+}
