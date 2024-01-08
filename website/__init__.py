@@ -19,7 +19,7 @@ def create_app():
     app.register_blueprint(auth, url_prefix='/')
     # url_prefix means: for ex. on views file when you define a route like 'xyz', when you want to access it you need to write "/url_prefix/xyz", so we just leave the prefix / like this.
 
-    from .models import User, Note
+    from .models import User
     # create_database(app)
 
     login_manager = LoginManager()
