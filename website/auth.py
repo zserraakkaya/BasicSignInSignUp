@@ -19,8 +19,10 @@ def signin():
                 flash('Signed in successfully')
                 login_user(user)
                 return redirect(url_for('views.dashboard'))
+            else:
+                flash('Wrong passowrd.')
         else:
-            flash('Wrong email or password')
+            flash('There is no user with this email.')
     data = request.form
     return render_template('signin.html', user=current_user)
 
